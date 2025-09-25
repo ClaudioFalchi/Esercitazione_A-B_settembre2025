@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genera figure</title>
+</head>
+<body>
+<h1> Generatore di forme</h1>
+
+<h3> Seleziona la forma da generare</h3>
+<form action="/shape.php" method="get">
+    <input type="radio" id="triangolo" name="forma" value="Triangolo rettangolo">
+    <label for="triangolo">Triangolo rettangolo</label><br>
+    <input type="radio" id="Quadrato" name="forma" value="Quadrato">
+    <label for="Quadrato">Quadrato</label><br>
+    <input type="radio" id="triangolospecchiato" name="forma" value="Triangolo rettangolo specchiato">
+    <label for="triangolospecchiato">Triangolo rettangolo specchiato</label><br>
+    <input type="radio" id="cornice" name="forma" value="Cornice">
+    <label for="cornice">Cornice</label><br>
+    <h4> Quanto grande deve essere la forma?</h4>
+    <input type="number" id="fname" name="fname" min="1" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
